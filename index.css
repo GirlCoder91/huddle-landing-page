@@ -1,0 +1,112 @@
+body {
+    background-image: url("images/bg-mobile.svg");
+    background-color: hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+    background-size: 57vh;
+}
+
+.illustration {
+    width: 46vh;
+    margin-left: 35px;
+    margin-top: 28px;
+}
+
+.logo {
+    width: 20vh;
+    margin: 30px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+p {
+    font-family: 'Open sans', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-top: -4px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    color:hsl(257, 40%, 49%);
+    background-color: white;
+    width: 228px;
+    font-size: 14px;
+    height: 45px;
+    border-radius: 20px 20px 20px 20px;
+    border: none;
+    margin-left: 75px;
+    margin-top: 10px;
+    box-shadow: 0 2px 2px 2px #4F3A87;
+}
+
+.icons,
+.twitter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.icons img {
+    width: 4.5vh;
+}
+
+.twitter {
+    margin: 0 10px 0 10px;
+}
+
+.attribution {
+    margin-top: 40px;
+}
+
+@media (min-width:1000px) {
+    body {
+        background-image: url("images/bg-desktop.svg");
+        background-size: 100%;
+    }
+
+    .logo {
+        width: 35vh;
+    }
+
+    .illustration {
+        width: 100vh;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-txt {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .text-btn {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+    }
+
+    .icons {
+        float: right;
+    }
+
+    h2 {
+        font-size: 40px;
+        text-align: left;
+    }
+}
